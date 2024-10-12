@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #C9DABF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Games', sans-serif;
+}
+
+.superWinner{
+    font-size: 10vw;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.game-container{
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9CA986;
+    padding: 50px;
+}
+
+.score-container{
+    background-color: #789461;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.x{
+    font-size: 20px;
+}
+
+.o{
+    font-size: 20px;
+}
+
+.gamePoint{
+    font-size: 20px;
+    display: none;
+}
+
+.xscore{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.oscore{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+
+.game-box{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.underline{
+    text-decoration: line-through;
+}
+
+.box{
+    height: 100px;
+    width: 100p;
+    border: 3px solid #5F6F65;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .5s all ease-out;
+    -webkit-transition: .5s all ease-out;
+    -moz-transition: .5s all ease-out;
+    -ms-transition: .5s all ease-out;
+    -o-transition: .5s all ease-out;
+}
+
+.box:hover{
+    background-color: #D4E7C5;
+}
+
+.one{
+    border-left: 0;
+    border-top: 0;
+}
+
+.two{
+    border-top: 0;
+}
+
+.three{
+    border-top: 0;
+    border-right: 0;
+}
+
+.four{
+    border-left: 0;
+}
+
+.six{
+    border-right: 0;
+}
+
+.seven{
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.eight{
+    border-bottom: 0;
+}
+
+.nine{
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.turn-text{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.start{
+    border: 0;
+    outline: 0;
+    margin-top: 20px;
+    padding: 5px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+.reset{
+    border: 0;
+    outline: 0;
+    margin-top: 20px;
+    padding: 5px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    display: none;
+}
+
+.user-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

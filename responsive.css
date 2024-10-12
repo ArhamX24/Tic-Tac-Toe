@@ -1,0 +1,25 @@
+@media all and (max-width: 1024px) {
+    .game-container{
+        height: 60vh;
+        width: 80%;
+        flex-wrap: wrap;
+    }
+
+    .game-box{
+        grid-template-columns: 90px 90px 90px ;
+    }
+
+    .start{
+        padding: 5px 40px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+     .game-container{
+        width: 100%;
+     }
+
+     .start{
+        margin-top: 10px;
+     }
+  }
